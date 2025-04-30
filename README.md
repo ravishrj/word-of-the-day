@@ -1,4 +1,4 @@
-# Welcome to your Expo app 👋
+<!-- # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
@@ -33,18 +33,87 @@ When you're ready, run:
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Running the App
+## Start the development server:
+```bash
+  npx expo start
+  ```
+## For Android:
+- Press a in the terminal to run on Android emulator
 
-## Learn more
+- OR scan QR code with Expo Go app on Android device
 
-To learn more about developing your project with Expo, look at the following resources:
+## For iOS (macOS only):
+Press i in the terminal to run on iOS simulator
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+OR scan QR code with Expo Go app on iPhone
 
-## Join the community
 
-Join our community of developers creating universal apps.
+ -->
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+# Word of the Day App - Expo
+
+![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37)
+
+A React Native application that displays daily vocabulary words with definitions and examples, built with Expo.
+
+   i  used all mock data for vocabulay utils/api.ts
+
+## 📋 Prerequisites
+
+- Node.js (v16 or newer)
+- npm (comes with Node.js)
+- Expo Go app on your mobile device
+- Android Studio (for emulator) / Xcode (for iOS simulator - macOS only)
+
+## 🛠️ Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/word-of-the-day.git
+   cd word-of-the-day
+
+
+   Install dependencies:
+
+bash
+npm install
+Install Expo CLI globally:
+
+bash
+npm install -g expo-cli
+▶️ Running the App
+Using Expo Go (Recommended for Testing)
+Start the development server:
+
+bash
+npx expo start
+On your mobile device:
+
+Install Expo Go:
+
+Android Play Store
+
+iOS App Store
+
+Scan the QR code shown in terminal with:
+
+Android: Expo Go app
+
+iOS: Camera app (iOS 13+)
+
+Using Android Emulator
+Start your emulator from Android Studio
+
+Run:
+
+bash
+npx expo start --android
+or press a in the Expo dev console
+
+Using iOS Simulator (macOS only)
+bash
+npx expo start --ios
+or press i in the Expo dev console
+
